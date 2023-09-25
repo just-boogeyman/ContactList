@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Person View Controller-->
         <scene sceneID="w9J-xS-OYu">
             <objects>
                 <tableViewController id="6Ds-pI-Rlu" customClass="PersonViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
@@ -31,7 +31,7 @@
                             <outlet property="delegate" destination="6Ds-pI-Rlu" id="gw1-8S-I59"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="jHY-Af-6Ch"/>
+                    <tabBarItem key="tabBarItem" title="" image="person.crop.circle" catalog="system" id="jHY-Af-6Ch"/>
                     <navigationItem key="navigationItem" id="kyM-tW-YFU"/>
                     <connections>
                         <segue destination="Be0-bt-Cs6" kind="show" identifier="goToDetail" id="QDF-XF-Ug3"/>
@@ -107,7 +107,7 @@
             </objects>
             <point key="canvasLocation" x="3679.1999999999998" y="-62.518740629685162"/>
         </scene>
-        <!--Item-->
+        <!--Person Deteil View Controller-->
         <scene sceneID="isj-6H-ZHZ">
             <objects>
                 <tableViewController id="a65-dZ-yDt" customClass="PersonDeteilViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
@@ -130,7 +130,7 @@
                             <outlet property="delegate" destination="a65-dZ-yDt" id="gsL-B7-1rI"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="Eh7-yR-Onp"/>
+                    <tabBarItem key="tabBarItem" title="" image="person.crop.circle.fill" catalog="system" id="Eh7-yR-Onp"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rqf-dA-P80" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -177,6 +177,8 @@
     </scenes>
     <resources>
         <image name="email" width="64" height="64"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="123"/>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="123"/>
         <image name="phone" width="64" height="64"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
