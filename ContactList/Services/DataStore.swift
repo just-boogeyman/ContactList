@@ -10,6 +10,8 @@ import Foundation
 // MARK: - DataStore Services
 
 class DataStore {
+    
+    static let shared = DataStore()
         
     let names = [
         "John",
