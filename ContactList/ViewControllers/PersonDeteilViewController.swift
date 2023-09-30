@@ -36,7 +36,7 @@ extension PersonDeteilViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "detailCell", for: indexPath)
         
-        let person = persons[indexPath.row]
+        let person = persons[indexPath.section]
         
         var content = cell.defaultContentConfiguration()
         content.text = indexPath.row == 0

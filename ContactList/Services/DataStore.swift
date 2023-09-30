@@ -41,4 +41,6 @@ class DataStore {
         "Ted@mail.ru",
         "Steven@mail.ru"
     ]
+    
+    private init() {}
 }
